@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gateway Paygol Integration\n"
+"POT-Creation-Date: 2020-05-16 21:58+0200\n"
+"PO-Revision-Date: 2020-05-16 22:05+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_AU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: pg_integration_main_class.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: pg_integration_gateway_class.php:7 pg_integration_gateway_class.php:10
+#: pg_integration_gateway_class.php:97
+msgid "Paygol"
+msgstr "Paygol"
+
+#: pg_integration_gateway_class.php:11
+msgid ""
+"Paygol bietet Ihnen weltweite Deckung mit einer vollständigen Zahlungslösung."
+msgstr "Paygol offers you worldwide coverage with a complete payment solution."
+
+#: pg_integration_gateway_class.php:72
+msgid "Aktivieren/Deaktivieren"
+msgstr "Activate / deactivate"
+
+#: pg_integration_gateway_class.php:74
+msgid "Aktivieren Sie Paygol-Zahlungen"
+msgstr "Activate Paygol payments"
+
+#: pg_integration_gateway_class.php:78
+msgid "Service ID"
+msgstr "Service ID"
+
+#: pg_integration_gateway_class.php:80
+msgid "Dies ist die ID Ihres Paygol-Dienstes."
+msgstr "This is the ID of your Paygol service."
+
+#: pg_integration_gateway_class.php:85
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: pg_integration_gateway_class.php:87
+msgid "Dies ist der geheime Schlüssel Ihres Paygol-Dienstes."
+msgstr "This is the secret key of your Paygol service."
+
+#: pg_integration_gateway_class.php:101
+msgid "Payments notification URL (IPN)"
+msgstr "Payments notification URL (IPN)"
+
+#: pg_integration_gateway_class.php:103
+msgid ""
+"Fügen Sie die \"Payments notification URL (IPN)\" in ihr Paygol Konto hinzu."
+msgstr "Add the \"Payments notification URL (IPN)\" to your Paygol account."
+
+#: pg_integration_gateway_class.php:112
+msgid "Klicken Sie auf die Paygol-Schaltfläche, um mit dem Kauf fortzufahren"
+msgstr "Click the Paygol button to proceed with the purchase"
+
+#: pg_integration_gateway_class.php:162
+msgid "Ihre Bestellung wurde abgeschlossen."
+msgstr "Your order has been completed."
+
+#: pg_integration_gateway_class.php:166
+msgid "Ihre Bestellung kann nicht abgeschlossen werden."
+msgstr "Your order cannot be completed."
+
+#: pg_integration_gateway_class.php:171
+msgid ""
+"Ihre Anfrage wird bearbeitet und abgeschlossen, sobald sie vom lokalen "
+"Zahlungsanbieter bestätigt wurde."
+msgstr ""
+"Your request will be processed and completed as soon as it is confirmed by "
+"the local payment provider."
+
+#. Plugin Name of the plugin/theme
+#: pg_integration_main_class.php:18
+msgid "Gateway Paygol Integration"
+msgstr "Gateway Paygol Integration"
+
+#: pg_integration_main_class.php:18
+msgid ""
+"Ermöglicht Ihren Kunden aus der ganzen Welt das Bezahlen mit einer Vielzahl "
+"internationaler und lokaler Zahlungsmethoden, darunter Kreditkarten, "
+"Debitkarten (einschließlich Redcompra über WebPay), elektronische "
+"Überweisungen, Barzahlungen, OXXO, Boleto Bancario, MercadoPago und vieles "
+"mehr mehr über die Paygol Online-Zahlungsplattform."
+msgstr ""
+"Allows your customers from all over the world to pay with a variety of "
+"international and local payment methods, including credit cards, debit cards "
+"(including Redcompra via WebPay), electronic transfers, cash payments, OXXO, "
+"Boleto Bancario, MercadoPago and much more via the Paygol online payment "
+"platform."
+
+#: pg_integration_main_class.php:48
+msgid "Wo sehe Ich die Service ID und den Secret Key?"
+msgstr "Where can I see the Service ID and the Secret Key?"
+
+#: pg_integration_main_class.php:49
+msgid ""
+"<p></p>Sie benötigen ein Paygol Konto, ein Konto können Sie unter <a href="
+"\"https://www.paygol.com/en/get-started\">https://www.paygol.com/en/get-"
+"started</a> erstellen. Wenn Sie sich ein Konto erstellt haben, gehen Sie im "
+"Dashboard unter dem Punkt Account auf \"Notifications\".<hr><p></p>"
+msgstr ""
+"<p></p>You need a Paygol account, you can open an account at <a href="
+"\"https://www.paygol.com/en/get-started\">https://www.paygol.com/en/get-"
+"started</a>. If you have created an account, go to \"Notifications\" in the "
+"dashboard under the item Account.<hr><p></p>"
+
+#: pg_integration_main_class.php:51
+msgid "Was muss Ich mit der Service ID und den Secret Key tun?"
+msgstr "What do I have to do with the Service ID and the Secret Key?"
+
+#: pg_integration_main_class.php:52
+msgid ""
+"Sie müssen diese beiden Zahlenkombinationen in dem WooCommerce Plugin bei "
+"Zahlungen unter PayGol eintragen.<hr><p></p>"
+msgstr ""
+"You have to enter these two number combinations in the WooCommerce plugin "
+"for payments under PayGol.<hr><p></p>"
+
+#: pg_integration_main_class.php:54
+msgid "Was muss Ich mit der IPN URL tun?"
+msgstr "What do I have to do with the IPN URL?"
+
+#: pg_integration_main_class.php:55
+msgid ""
+"Die IPN URL müssen Sie in dem PayGol-Dashboard eintragen unter dem "
+"\"Notifications\" Bereich."
+msgstr ""
+"You have to enter the IPN URL in the PayGol dashboard under the "
+"\"Notifications\" area."
+
+#: pg_integration_main_class.php:57
+msgid "Welche Zahlungsmethoden kann Ich mit PayGol anbieten?"
+msgstr "What payment methods can I offer with PayGol?"
+
+#: pg_integration_main_class.php:58
+msgid ""
+"Mit PayGol ist es möglich die bekannten Zahlungsmethoden wie Paysafecard, "
+"Bitcoin und Giropay anzubieten, die gesamten Zahlungsmethoden können Sie "
+"unter <a href=\"https://www.paygol.com/en/pricing\">https://www.paygol.com/"
+"en/pricing</a> einsehen. <hr><p></p>"
+msgstr ""
+"With PayGol it is possible to offer the well-known payment methods such as "
+"Paysafecard, Bitcoin and Giropay, the entire payment methods can be found at "
+"<a href=\"https://www.paygol.com/en/pricing\">https://www.paygol.com/en/"
+"pricing</a><hr><p></p>"
+
+#: pg_integration_main_class.php:60
+msgid "Wie kann Ich das Design verändern von der PayGol Webcheckout Page?"
+msgstr "How can I change the design of the PayGol web checkout page?"
+
+#: pg_integration_main_class.php:61
+msgid ""
+"Wenn Sie im PayGol-Dashboard sind, können Sie im Reiter Account auf "
+"Customization klicken, dort können Sie ihr eigenes Logo einfügen und ihr "
+"eigenes Hintergrundbild."
+msgstr ""
+"If you are in the PayGol dashboard, you can click on Customization in the "
+"Account tab, there you can insert your own logo and your own background "
+"image."
+
+#. Plugin URI of the plugin/theme
+msgid "https://domisiding.de"
+msgstr "https://domisiding.de"
+
+#. Description of the plugin/theme
+msgid ""
+"Paygol ist ein Online-Zahlungsdienstleister, der eine Vielzahl von "
+"weltweiten und lokalen Zahlungsmethoden anbietet, einschließlich (aber nicht "
+"beschränkt auf) Kreditkarten, Debitkarten, Banküberweisungen und "
+"Barzahlungen. Zu den unterstützten lokalen Zahlungsmethoden gehören WebPay, "
+"OXXO, Boleto, DineroMail, MercadoPago und viele andere. Die Einfachheit der "
+"Integration macht es für jeden sehr einfach, es zu verwenden, und diese "
+"Benutzerfreundlichkeit lässt sich perfekt auf dieses Plugin übertragen."
+msgstr ""
+"Paygol is an online payment service provider that offers one of public and "
+"political solvency, bank transfer and cash. Personal relationships include "
+"WebPay, OXXO, Boleto, DineroMail, MercadoPago and many others. The "
+"integration of the integration makes it very easy for everyone, it is used "
+"and this ease of use can be changed perfectly on this plugin."
+
+#. Author of the plugin/theme
+msgid "Domisiding"
+msgstr "Domisiding"
